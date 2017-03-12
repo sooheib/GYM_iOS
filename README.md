@@ -7,19 +7,19 @@ SPARTAXGYM records the number of steps you have walked or running and displays t
 SPARTAXGYM has a growing exercise database workouts which you can do at home or in the gym and you can create custom workout routines. 
 Language : English 
 <br>
-<src img="https://spartax.000webhostapp.com/1.png"/>
+<img src="https://spartax.000webhostapp.com/1.png"/>
 <br>
-<src img="https://spartax.000webhostapp.com/2.png"/>
+<img src="https://spartax.000webhostapp.com/2.png"/>
 <br>
-<src img="https://spartax.000webhostapp.com/3.png"/>
+<img src="https://spartax.000webhostapp.com/3.png"/>
 <br>
-<src img="https://spartax.000webhostapp.com/4.png"/>
+<img src="https://spartax.000webhostapp.com/4.png"/>
 <br>
-<src img="https://spartax.000webhostapp.com/5.png"/>
+<img src="https://spartax.000webhostapp.com/5.png"/>
 <br>
-<src img="https://spartax.000webhostapp.com/6.png"/>
+<img src="https://spartax.000webhostapp.com/6.png"/>
 <br>
-<src img="https://spartax.000webhostapp.com/7.png"/>
+<img src="https://spartax.000webhostapp.com/7.png"/>
 <br>
-<src img="https://spartax.000webhostapp.com/8.png"/>
+<img src="https://spartax.000webhostapp.com/8.png"/>
 
