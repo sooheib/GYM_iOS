@@ -1,0 +1,6 @@
+framework module Pods_SPARTAXGYM {
+  umbrella header "Pods-SPARTAXGYM-umbrella.h"
+
+  export *
+  module * { export * }
+}
