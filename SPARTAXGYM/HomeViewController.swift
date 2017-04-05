@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import Firebase
+
 
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        FIRAuth.auth()?.addStateDidChangeListener { auth, user in
+            if let user = user {
+                
+            } else {
+//                self.performSegue(withIdentifier: "goToLogin", sender: self)
+            }
+        }
         
         if revealViewController() != nil {
             menuButton.target = revealViewController()
@@ -21,5 +31,12 @@ class HomeViewController: UIViewController {
         }
         
         
+        
+        
 }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if FIRAuth.auth()?.currentUser != nil {
+            getTodaysWorkouts()
+        }    }
 }

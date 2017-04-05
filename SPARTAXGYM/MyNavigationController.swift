@@ -16,7 +16,9 @@ class MyNavigationController: UINavigationController, UINavigationControllerDele
         [ (HomeViewController.self, false, UIColor.init(red: 82/255, green: 82/255, blue: 79/255, alpha: 1), UIColor.white, "Home!"),
              (ClassesViewController.self, false, UIColor.init(red: 82/255, green: 82/255, blue: 79/255, alpha: 1), UIColor.white, "Classes!"),
              (DemoViewController.self, false, UIColor.init(red: 82/255, green: 82/255, blue: 79/255, alpha: 1), UIColor.white, "Events!"),
-                (TrainersViewController.self, false, UIColor.init(red: 82/255, green: 82/255, blue: 79/255, alpha: 1), UIColor.white, "Trainers!")
+                (TrainersViewController.self, false, UIColor.init(red: 82/255, green: 82/255, blue: 79/255, alpha: 1), UIColor.white, "Trainers!"),
+                (HomePageViewController.self, false, UIColor.init(red: 82/255, green: 82/255, blue: 79/255, alpha: 1), UIColor.white, "Workout!")
+
 
             
           ]

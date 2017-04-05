@@ -1,9 +1,9 @@
 //
-//  SPParallaxTableViewCell.swift
-//  ParallaxTableView
+//  TrainersViewController.swift
+//  SPARTAXGYM
 //
-//  Created by Ivan Vorobei on 10/26/16.
-//  Copyright © 2016 Ivan Vorobei. All rights reserved.
+//  Created by souheib on 3/8/17.
+//  Copyright © 2017 souheib. All rights reserved.
 //
 
 import UIKit

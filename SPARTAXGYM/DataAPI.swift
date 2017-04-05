@@ -30,12 +30,12 @@ struct DataAPI {
     
     static func getBackgroundImages() -> [UIImage] {
         return [
-            UIImage.init(named: "bikebeats")!,
-            UIImage.init(named: "escalate")!,
-            UIImage.init(named: "ghettozumba")!,
-            UIImage.init(named: "ocr")!,
-            UIImage.init(named: "pilatesy")!,
-            UIImage.init(named: "prehab")!
+            UIImage.init(named: "fitness")!,
+            UIImage.init(named: "fitness")!,
+            UIImage.init(named: "fitness")!,
+            UIImage.init(named: "fitness")!,
+            UIImage.init(named: "fitness")!,
+            UIImage.init(named: "fitness")!
         ]
     }
 }

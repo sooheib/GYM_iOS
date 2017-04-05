@@ -9,6 +9,7 @@
 import UIKit
 import SCLAlertView
 import Firebase
+import FirebaseDatabase
 
 class SingUpViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
@@ -34,10 +35,10 @@ class SingUpViewController: UIViewController, UITextFieldDelegate, UIImagePicker
         profil_img.clipsToBounds = true
         
         
+      //  let data: DataServices = DataServices()
         
         
-        
-        
+
         
         firstName_Tf.addIcon(icon: "name")
         lastName_tf.addIcon(icon: "name")
@@ -102,6 +103,7 @@ class SingUpViewController: UIViewController, UITextFieldDelegate, UIImagePicker
     }
     
     @IBAction func signup(_ sender : UIButton){
+    
         if firstName_Tf.text! == "" || lastName_tf.text! == "" || email_Tf.text! == "" || mobile_tf.text! == "" || password_Tf.text! == "" || confirmPassword_Tf.text! == ""{
             
             let alertView = SCLAlertView()
@@ -124,6 +126,46 @@ class SingUpViewController: UIViewController, UITextFieldDelegate, UIImagePicker
                 if error == nil {
                     print(user!)
                     self.complete_signup()
+                    
+                    
+                    
+                    let userID: String = user!.uid
+                    let userEmail: String = self.email_Tf.text!
+                    let userPassword: String = self.password_Tf.text!
+                    let userFName: String = self.firstName_Tf.text!
+                    let userLName: String = self.lastName_tf.text!
+                    let userMobile: String=self.mobile_tf.text!
+                    
+
+                    
+                    
+                    
+                    
+//                    let userReference = self.databaseRef.child("users").child(uid)
+//                    let values = ["username": username, "email": email, "pic":""]
+//                    
+//                    userReference.updateChildValues(values
+//                        , withCompletionBlock: { (error, ref) in
+//                            if error != nil{
+//                                print(error!)
+//                                return
+//                            }
+                    
+                    let ref : FIRDatabaseReference!
+                    ref = FIRDatabase.database().reference()
+//ref=FIRDatabase.database().reference(fromURL: "https://spartaxgym-44108.firebaseio.com/")
+                    
+                    
+                
+    ref.child("users").child(userID).child("userInfo").setValue(["email": userEmail, "firstname": userFName, "lasttname": userLName, "password": userPassword, "mobile": userMobile, "workoutPlanned": "no"])
+       ref.child("users").child(userID).child("days").child("02222016").child("workoutID:1123").setValue(["sets": "0", "reps": "0", "workoutComplete": "false"])
+                    
+                    
+                    
+                    
+                
+                    
+                    
                 }
                 else{
                     print(error!)

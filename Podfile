@@ -7,8 +7,10 @@ target 'SPARTAXGYM' do
 	pod 'Firebase/Auth'
 	pod 'FacebookCore'
 	pod 'FacebookLogin'
+        pod 'Firebase/Database'
 	pod 'FacebookShare'
 	pod 'GoogleMaps', '~> 2.1'
         pod 'GooglePlaces', '~> 2.1'
         pod 'expanding-collection', '~> 1.0.3'
+        pod 'JTAppleCalendar'
 end

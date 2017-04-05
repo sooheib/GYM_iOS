@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+
 
 class TrainersViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
@@ -16,16 +18,19 @@ class TrainersViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
 
+    var refTrainers: FIRDatabaseReference!
+
+    @IBOutlet var collectionViewTrainers: UICollectionView!
+
+        static var isAlreadyLaunchedOnce = false // Used to avoid 2 FIRApp configure
+    
+    //list to store all the artist
+    var trainersList = [Trainer]()
+
     
     fileprivate var items = [Character]()
     
-    fileprivate var currentPage: Int = 0 {
-        didSet {
-            let character = self.items[self.currentPage]
-            self.infoLabel.text = character.name.uppercased()
-            self.detailLabel.text = character.movie.uppercased()
-        }
-    }
+ 
     
     fileprivate var pageSize: CGSize {
         let layout = self.collectionView.collectionViewLayout as! UPCarouselFlowLayout
@@ -46,6 +51,52 @@ class TrainersViewController: UIViewController, UICollectionViewDelegate, UIColl
     override func viewDidLoad() {
         super.viewDidLoad()
         
+     
+        
+        if FIRApp.defaultApp() == nil {
+            FIRApp.configure()
+        }
+        
+        
+        
+        //FIRApp.configure()
+        
+        refTrainers = FIRDatabase.database().reference().child("trainers");
+        
+        
+        
+        
+        //observing the data changes
+        refTrainers.observe(FIRDataEventType.value, with: { (snapshot) in
+            
+            //if the reference have some values
+            if snapshot.childrenCount > 0 {
+                
+                //clearing the list
+                self.trainersList.removeAll()
+                
+                //iterating through all the values
+                for classes in snapshot.children.allObjects as! [FIRDataSnapshot] {
+                    //getting values
+                    let classObject = classes.value as? [String: AnyObject]
+                    let className  = classObject?["trainer_name"]
+                    //let  classDesc = classObject?["course_desc"]
+                    let classCover = classObject?["trainer_photo"]
+                    
+                    //creating artist object with model and fetched values
+                    //let course = Classes(id: artistId as! String?, name: artistName as! String?, genre: artistGenre as! String?)
+                    
+                    let trainer =  Trainer(nametrainer:className as! String?,covertrainer:classCover as! String?)
+                    
+                    //appending it to list
+                    self.trainersList.append(trainer)
+                }
+                
+                //reloading the tableview
+        self.collectionViewTrainers.reloadData()
+            }
+        })
+
         
         if revealViewController() != nil {
             menuButton.target = revealViewController()
@@ -64,6 +115,35 @@ class TrainersViewController: UIViewController, UICollectionViewDelegate, UIColl
     fileprivate func setupLayout() {
         let layout = self.collectionView.collectionViewLayout as! UPCarouselFlowLayout
         layout.spacingMode = UPCarouselFlowLayoutSpacingMode.overlap(visibleOffset: 30)
+    }
+    
+    
+    fileprivate var currentPage: Int = 0 {
+        didSet {
+            
+            
+            if trainersList.count == 0{
+            
+                let character = self.items[self.currentPage]
+                self.infoLabel.text = character.name.uppercased()
+                self.detailLabel.text = character.movie.uppercased()
+            }
+            else
+            
+            {
+            
+                 let trainer1=self.trainersList[self.currentPage]
+                 self.infoLabel.text=trainer1.trainer_name?.uppercased()
+                 self.detailLabel.text = trainer1.trainer_desc?.uppercased()
+            
+            }
+            
+            
+            
+ 
+            
+            
+        }
     }
     
     fileprivate func createItems() -> [Character] {
@@ -98,19 +178,54 @@ class TrainersViewController: UIViewController, UICollectionViewDelegate, UIColl
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return items.count
+        //return items.count
+        return trainersList.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CarouselCollectionViewCell.identifier, for: indexPath) as! CarouselCollectionViewCell
-        let character = items[(indexPath as NSIndexPath).row]
-        cell.image.image = UIImage(named: character.imageName)
+        //let character = items[(indexPath as NSIndexPath).row]
+       // cell.image.image = UIImage(named: character.imageName)
+        
+        let cellIndex=(indexPath as NSIndexPath).row
+        
+        let trainers:Trainer
+        trainers = trainersList[cellIndex]
+        
+        let imageUrl:URL = URL(string: trainers.trainer_cover!)!
+        
+        
+        DispatchQueue.global(qos: .userInitiated).async {
+            
+            let imageData:NSData = NSData(contentsOf: imageUrl)!
+            let imageView = UIImageView(frame: CGRect(x:0, y:0, width:200, height:200))
+            imageView.center = self.view.center
+            
+            // When from background thread, UI needs to be updated on main_queue
+            DispatchQueue.main.async {
+                let image = UIImage(data: imageData as Data)
+                
+                cell.image.image = image
+
+        
+            }
+        }
+        
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let character = items[(indexPath as NSIndexPath).row]
-        let alert = UIAlertController(title: character.name, message: nil, preferredStyle: .alert)
+       // let character = items[(indexPath as NSIndexPath).row]
+        
+        //let alert = UIAlertController(title: character.name, message: nil, preferredStyle: .alert)
+        //alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        //present(alert, animated: true, completion: nil)
+        let cellIndex=(indexPath as NSIndexPath).row
+
+        let trainers:Trainer
+        trainers = trainersList[cellIndex]
+    
+        let alert = UIAlertController(title: trainers.trainer_name, message: nil, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(alert, animated: true, completion: nil)
     }

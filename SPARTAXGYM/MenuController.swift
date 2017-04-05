@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import Firebase
+
 
 class MenuController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        FIRAuth.auth()?.addStateDidChangeListener { auth, user in
+            if let user = user {
+                
+            } else {
+             //   self.performSegue(withIdentifier: "goToLogin", sender: self)
+            }
+        }
         self.tableView.tableFooterView = UIView()
 
         // Uncomment the following line to preserve selection between presentations

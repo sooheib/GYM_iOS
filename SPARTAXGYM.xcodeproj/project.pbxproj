@@ -7,12 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100294E21E83D2000058BFEE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294C71E83D2000058BFEE /* Data.swift */; };
+		100294E31E83D2000058BFEE /* Days.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294C81E83D2000058BFEE /* Days.swift */; };
+		100294E41E83D2000058BFEE /* WorkOuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294C91E83D2000058BFEE /* WorkOuts.swift */; };
+		100294E51E83D2000058BFEE /* Workout Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294CA1E83D2000058BFEE /* Workout Functions.swift */; };
+		100294E61E83D2000058BFEE /* Custom Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294CB1E83D2000058BFEE /* Custom Buttons.swift */; };
+		100294E71E83D2000058BFEE /* CustomSmallButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294CC1E83D2000058BFEE /* CustomSmallButtons.swift */; };
+		100294E81E83D2000058BFEE /* BottomOnlyBorderTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294CD1E83D2000058BFEE /* BottomOnlyBorderTextfield.swift */; };
+		100294E91E83D2000058BFEE /* BottomOnlyWithDarkUnderline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294CE1E83D2000058BFEE /* BottomOnlyWithDarkUnderline.swift */; };
+		100294EA1E83D2000058BFEE /* NumberOnlyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294CF1E83D2000058BFEE /* NumberOnlyTextField.swift */; };
+		100294ED1E83D2000058BFEE /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294D21E83D2000058BFEE /* WorkoutTableViewCell.swift */; };
+		100294EE1E83D2000058BFEE /* BodyChoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294D31E83D2000058BFEE /* BodyChoiceTableViewCell.swift */; };
+		100294EF1E83D2000058BFEE /* SetupWorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294D41E83D2000058BFEE /* SetupWorkoutTableViewCell.swift */; };
+		100294F01E83D2000058BFEE /* StartWorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294D51E83D2000058BFEE /* StartWorkoutTableViewCell.swift */; };
+		100294F11E83D2000058BFEE /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294D61E83D2000058BFEE /* HistoryTableViewCell.swift */; };
+		100294F21E83D2010058BFEE /* HistoryDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294D71E83D2000058BFEE /* HistoryDayTableViewCell.swift */; };
+		100294F31E83D2010058BFEE /* HistoryOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294D81E83D2000058BFEE /* HistoryOverviewViewController.swift */; };
+		100294F41E83D2010058BFEE /* HistoryDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294D91E83D2000058BFEE /* HistoryDayViewController.swift */; };
+		100294F51E83D2010058BFEE /* StartOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294DA1E83D2000058BFEE /* StartOverviewViewController.swift */; };
+		100294F61E83D2010058BFEE /* StartChosenWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294DB1E83D2000058BFEE /* StartChosenWorkoutViewController.swift */; };
+		100294F71E83D2010058BFEE /* FinishedWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294DC1E83D2000058BFEE /* FinishedWorkoutViewController.swift */; };
+		100294F81E83D2010058BFEE /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294DD1E83D2000058BFEE /* HomePageViewController.swift */; };
+		100294FA1E83D2010058BFEE /* SetupWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294DF1E83D2000058BFEE /* SetupWorkoutViewController.swift */; };
+		100294FB1E83D2010058BFEE /* BodyChoiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294E01E83D2000058BFEE /* BodyChoiceTableViewController.swift */; };
+		100294FC1E83D2010058BFEE /* ChooseWorkoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100294E11E83D2000058BFEE /* ChooseWorkoutTableViewController.swift */; };
 		100A61CA1E6FFC0C00F754C8 /* UPCarouselFlowLayout in Resources */ = {isa = PBXBuildFile; fileRef = 100A61C91E6FFC0C00F754C8 /* UPCarouselFlowLayout */; };
 		100A61CE1E6FFC7B00F754C8 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100A61CB1E6FFC7B00F754C8 /* CarouselCollectionViewCell.swift */; };
 		100A61CF1E6FFC7B00F754C8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100A61CC1E6FFC7B00F754C8 /* Character.swift */; };
 		100A61D01E6FFC7B00F754C8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100A61CD1E6FFC7B00F754C8 /* GradientView.swift */; };
 		100A61D21E6FFC8C00F754C8 /* TrainersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100A61D11E6FFC8C00F754C8 /* TrainersViewController.swift */; };
 		100A61D51E6FFCAC00F754C8 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100A61D41E6FFCAC00F754C8 /* UPCarouselFlowLayout.swift */; };
+		1017F3F51E958736000B0710 /* SPARTAXGYM_WATCH Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 10A7EA141E8AFBF800BDD3AB /* SPARTAXGYM_WATCH Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1017F3F91E9587F5000B0710 /* SPARTAXGYM_WATCH.app in Resources */ = {isa = PBXBuildFile; fileRef = 10A7EA081E8AFBF800BDD3AB /* SPARTAXGYM_WATCH.app */; };
+		1017F3FB1E95933A000B0710 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1017F3FA1E95933A000B0710 /* HealthKit.framework */; };
+		1017F3FD1E9594C1000B0710 /* SPARTAXGYM_WATCH.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 10A7EA081E8AFBF800BDD3AB /* SPARTAXGYM_WATCH.app */; };
+		102EF9591E942A0000CE389E /* CountdownTimerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102EF9541E942A0000CE389E /* CountdownTimerInterfaceController.swift */; };
+		102EF95A1E942A0000CE389E /* SessionInfoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102EF9551E942A0000CE389E /* SessionInfoInterfaceController.swift */; };
+		102EF95B1E942A0000CE389E /* SessionActionsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102EF9561E942A0000CE389E /* SessionActionsInterfaceController.swift */; };
+		102EF95C1E942A0000CE389E /* SessionZonesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102EF9571E942A0000CE389E /* SessionZonesInterfaceController.swift */; };
+		102EF95D1E942A0000CE389E /* SummaryInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102EF9581E942A0000CE389E /* SummaryInterfaceController.swift */; };
+		102FF5541E89A0B800380DBA /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102FF5531E89A0B800380DBA /* CalendarViewController.swift */; };
+		1059E0C71E8A778B006C4256 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1059E0C51E8A778B006C4256 /* CellView.swift */; };
+		1059E0C81E8A778C006C4256 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1059E0C61E8A778B006C4256 /* CellView.xib */; };
 		1061A6281E7559CA005596EF /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061A6271E7559CA005596EF /* ClassesViewController.swift */; };
 		1061A62A1E755B0E005596EF /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061A6291E755B0E005596EF /* EventsViewController.swift */; };
 		1061A62C1E755B22005596EF /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061A62B1E755B22005596EF /* EventsTableViewController.swift */; };
@@ -26,6 +62,46 @@
 		1066A9AE1E6F348800DD8B9B /* SPLaunchAnimationSlideExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066A9A41E6F348800DD8B9B /* SPLaunchAnimationSlideExtenshion.swift */; };
 		1066A9AF1E6F348800DD8B9B /* SPLaunchAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066A9A51E6F348800DD8B9B /* SPLaunchAnimation.swift */; };
 		1066A9B01E6F348800DD8B9B /* SPAnimationSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066A9A61E6F348800DD8B9B /* SPAnimationSpring.swift */; };
+		10A7EA041E8AFB4C00BDD3AB /* DefaultPulseZones.json in Resources */ = {isa = PBXBuildFile; fileRef = 10A7EA021E8AFB4B00BDD3AB /* DefaultPulseZones.json */; };
+		10A7EA051E8AFB4C00BDD3AB /* DefaultWorkoutPrograms.json in Resources */ = {isa = PBXBuildFile; fileRef = 10A7EA031E8AFB4B00BDD3AB /* DefaultWorkoutPrograms.json */; };
+		10A7EA0C1E8AFBF800BDD3AB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A7EA0A1E8AFBF800BDD3AB /* Interface.storyboard */; };
+		10A7EA0E1E8AFBF800BDD3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A7EA0D1E8AFBF800BDD3AB /* Assets.xcassets */; };
+		10A7EA1E1E8AFBF900BDD3AB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA1D1E8AFBF900BDD3AB /* ExtensionDelegate.swift */; };
+		10A7EA201E8AFBF900BDD3AB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA1F1E8AFBF900BDD3AB /* NotificationController.swift */; };
+		10A7EA221E8AFBF900BDD3AB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA211E8AFBF900BDD3AB /* ComplicationController.swift */; };
+		10A7EA241E8AFBF900BDD3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A7EA231E8AFBF900BDD3AB /* Assets.xcassets */; };
+		10A7EA3C1E8AFDBA00BDD3AB /* UserDefaults+Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA391E8AFDBA00BDD3AB /* UserDefaults+Keys.swift */; };
+		10A7EA3D1E8AFDBA00BDD3AB /* Int+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA3A1E8AFDBA00BDD3AB /* Int+Util.swift */; };
+		10A7EA3E1E8AFDBA00BDD3AB /* NSNotification+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA3B1E8AFDBA00BDD3AB /* NSNotification+Names.swift */; };
+		10A7EA421E8AFDD100BDD3AB /* AppFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA3F1E8AFDD100BDD3AB /* AppFileManager.swift */; };
+		10A7EA431E8AFDD100BDD3AB /* UIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA401E8AFDD100BDD3AB /* UIUtil.swift */; };
+		10A7EA441E8AFDD100BDD3AB /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA411E8AFDD100BDD3AB /* MulticastDelegate.swift */; };
+		10A7EA4B1E8AFDF200BDD3AB /* WorkoutSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA451E8AFDF200BDD3AB /* WorkoutSessionManager.swift */; };
+		10A7EA4C1E8AFDF200BDD3AB /* WorkoutSessionManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA461E8AFDF200BDD3AB /* WorkoutSessionManagerDelegate.swift */; };
+		10A7EA4D1E8AFDF200BDD3AB /* WorkoutSessionQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA471E8AFDF200BDD3AB /* WorkoutSessionQueries.swift */; };
+		10A7EA4E1E8AFDF200BDD3AB /* HeartRateQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA481E8AFDF200BDD3AB /* HeartRateQuery.swift */; };
+		10A7EA4F1E8AFDF200BDD3AB /* DistanceQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA491E8AFDF200BDD3AB /* DistanceQuery.swift */; };
+		10A7EA501E8AFDF200BDD3AB /* ActiveCaloriesQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA4A1E8AFDF200BDD3AB /* ActiveCaloriesQuery.swift */; };
+		10A7EA531E8AFE0000BDD3AB /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA511E8AFE0000BDD3AB /* Workouts.swift */; };
+		10A7EA541E8AFE0000BDD3AB /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA521E8AFE0000BDD3AB /* Workout.swift */; };
+		10A7EA581E8AFE0D00BDD3AB /* WorkoutPrograms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA551E8AFE0D00BDD3AB /* WorkoutPrograms.swift */; };
+		10A7EA591E8AFE0D00BDD3AB /* WorkoutProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA561E8AFE0D00BDD3AB /* WorkoutProgram.swift */; };
+		10A7EA5A1E8AFE0D00BDD3AB /* WorkoutProgramPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA571E8AFE0D00BDD3AB /* WorkoutProgramPart.swift */; };
+		10A7EA5E1E8AFE1E00BDD3AB /* PulseZones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA5B1E8AFE1E00BDD3AB /* PulseZones.swift */; };
+		10A7EA5F1E8AFE1E00BDD3AB /* PulseZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA5C1E8AFE1E00BDD3AB /* PulseZone.swift */; };
+		10A7EA601E8AFE1E00BDD3AB /* PulseZoneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA5D1E8AFE1E00BDD3AB /* PulseZoneType.swift */; };
+		10A7EA651E8AFE4900BDD3AB /* WorkoutsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA631E8AFE4900BDD3AB /* WorkoutsInterfaceController.swift */; };
+		10A7EA661E8AFE4900BDD3AB /* CellWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA641E8AFE4900BDD3AB /* CellWorkout.swift */; };
+		10A7EA6A1E8AFE5600BDD3AB /* ProgramInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA671E8AFE5600BDD3AB /* ProgramInterfaceController.swift */; };
+		10A7EA6B1E8AFE5600BDD3AB /* ZoneInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA681E8AFE5600BDD3AB /* ZoneInterfaceController.swift */; };
+		10A7EA6C1E8AFE5600BDD3AB /* ZonesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7EA691E8AFE5600BDD3AB /* ZonesInterfaceController.swift */; };
+		10A7EA6D1E8B014B00BDD3AB /* DefaultPulseZones.json in Resources */ = {isa = PBXBuildFile; fileRef = 10A7EA021E8AFB4B00BDD3AB /* DefaultPulseZones.json */; };
+		10A7EA6E1E8B014F00BDD3AB /* DefaultWorkoutPrograms.json in Resources */ = {isa = PBXBuildFile; fileRef = 10A7EA031E8AFB4B00BDD3AB /* DefaultWorkoutPrograms.json */; };
+		10A7EA6F1E8B01A300BDD3AB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A7EA0A1E8AFBF800BDD3AB /* Interface.storyboard */; };
+		10A7EA751E8B08A600BDD3AB /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A7EA741E8B08A600BDD3AB /* HealthKit.framework */; };
+		10B5FD721E81D3FF006523D5 /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B5FD711E81D3FF006523D5 /* Courses.swift */; };
+		10BF7B0B1E82627A00469C67 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF7B0A1E82627A00469C67 /* Events.swift */; };
+		10BF7B0D1E82782D00469C67 /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF7B0C1E82782D00469C67 /* Trainer.swift */; };
 		10C036411E600D6500A4D0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C036401E600D6500A4D0EA /* AppDelegate.swift */; };
 		10C036431E600D6500A4D0EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C036421E600D6500A4D0EA /* ViewController.swift */; };
 		10C036461E600D6500A4D0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C036441E600D6500A4D0EA /* Main.storyboard */; };
@@ -72,7 +148,90 @@
 		6D32C13D1E7D22083D3037BA /* Pods_SPARTAXGYM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F4005291999B61AEFE66EE /* Pods_SPARTAXGYM.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1017F3F61E958736000B0710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C036351E600D6200A4D0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10A7EA131E8AFBF800BDD3AB;
+			remoteInfo = "SPARTAXGYM_WATCH Extension";
+		};
+		109109231E9507DA00F1E524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C036351E600D6200A4D0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10A7EA071E8AFBF700BDD3AB;
+			remoteInfo = SPARTAXGYM_WATCH;
+		};
+		10A7EA261E8AFBF900BDD3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C036351E600D6200A4D0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10A7EA071E8AFBF700BDD3AB;
+			remoteInfo = SPARTAXGYM_WATCH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1017F3F81E958736000B0710 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1017F3F51E958736000B0710 /* SPARTAXGYM_WATCH Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109109251E9507DB00F1E524 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A7EA301E8AFBF900BDD3AB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1017F3FD1E9594C1000B0710 /* SPARTAXGYM_WATCH.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		100294C71E83D2000058BFEE /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		100294C81E83D2000058BFEE /* Days.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Days.swift; sourceTree = "<group>"; };
+		100294C91E83D2000058BFEE /* WorkOuts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkOuts.swift; sourceTree = "<group>"; };
+		100294CA1E83D2000058BFEE /* Workout Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Workout Functions.swift"; sourceTree = "<group>"; };
+		100294CB1E83D2000058BFEE /* Custom Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Custom Buttons.swift"; sourceTree = "<group>"; };
+		100294CC1E83D2000058BFEE /* CustomSmallButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSmallButtons.swift; sourceTree = "<group>"; };
+		100294CD1E83D2000058BFEE /* BottomOnlyBorderTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomOnlyBorderTextfield.swift; sourceTree = "<group>"; };
+		100294CE1E83D2000058BFEE /* BottomOnlyWithDarkUnderline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomOnlyWithDarkUnderline.swift; sourceTree = "<group>"; };
+		100294CF1E83D2000058BFEE /* NumberOnlyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberOnlyTextField.swift; sourceTree = "<group>"; };
+		100294D21E83D2000058BFEE /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		100294D31E83D2000058BFEE /* BodyChoiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyChoiceTableViewCell.swift; sourceTree = "<group>"; };
+		100294D41E83D2000058BFEE /* SetupWorkoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupWorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		100294D51E83D2000058BFEE /* StartWorkoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartWorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		100294D61E83D2000058BFEE /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		100294D71E83D2000058BFEE /* HistoryDayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDayTableViewCell.swift; sourceTree = "<group>"; };
+		100294D81E83D2000058BFEE /* HistoryOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryOverviewViewController.swift; sourceTree = "<group>"; };
+		100294D91E83D2000058BFEE /* HistoryDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDayViewController.swift; sourceTree = "<group>"; };
+		100294DA1E83D2000058BFEE /* StartOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartOverviewViewController.swift; sourceTree = "<group>"; };
+		100294DB1E83D2000058BFEE /* StartChosenWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartChosenWorkoutViewController.swift; sourceTree = "<group>"; };
+		100294DC1E83D2000058BFEE /* FinishedWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishedWorkoutViewController.swift; sourceTree = "<group>"; };
+		100294DD1E83D2000058BFEE /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		100294DF1E83D2000058BFEE /* SetupWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupWorkoutViewController.swift; sourceTree = "<group>"; };
+		100294E01E83D2000058BFEE /* BodyChoiceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyChoiceTableViewController.swift; sourceTree = "<group>"; };
+		100294E11E83D2000058BFEE /* ChooseWorkoutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseWorkoutTableViewController.swift; sourceTree = "<group>"; };
 		100A61C91E6FFC0C00F754C8 /* UPCarouselFlowLayout */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UPCarouselFlowLayout; sourceTree = "<group>"; };
 		100A61CB1E6FFC7B00F754C8 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
 		100A61CC1E6FFC7B00F754C8 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
@@ -80,6 +239,15 @@
 		100A61D11E6FFC8C00F754C8 /* TrainersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainersViewController.swift; sourceTree = "<group>"; };
 		100A61D31E6FFCAC00F754C8 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPCarouselFlowLayout.h; path = UPCarouselFlowLayout/UPCarouselFlowLayout.h; sourceTree = "<group>"; };
 		100A61D41E6FFCAC00F754C8 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UPCarouselFlowLayout.swift; path = UPCarouselFlowLayout/UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		1017F3FA1E95933A000B0710 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		102EF9541E942A0000CE389E /* CountdownTimerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownTimerInterfaceController.swift; sourceTree = "<group>"; };
+		102EF9551E942A0000CE389E /* SessionInfoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionInfoInterfaceController.swift; sourceTree = "<group>"; };
+		102EF9561E942A0000CE389E /* SessionActionsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionActionsInterfaceController.swift; sourceTree = "<group>"; };
+		102EF9571E942A0000CE389E /* SessionZonesInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionZonesInterfaceController.swift; sourceTree = "<group>"; };
+		102EF9581E942A0000CE389E /* SummaryInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryInterfaceController.swift; sourceTree = "<group>"; };
+		102FF5531E89A0B800380DBA /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		1059E0C51E8A778B006C4256 /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		1059E0C61E8A778B006C4256 /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
 		1061A6271E7559CA005596EF /* ClassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
 		1061A6291E755B0E005596EF /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		1061A62B1E755B22005596EF /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +261,50 @@
 		1066A9A41E6F348800DD8B9B /* SPLaunchAnimationSlideExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLaunchAnimationSlideExtenshion.swift; sourceTree = "<group>"; };
 		1066A9A51E6F348800DD8B9B /* SPLaunchAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLaunchAnimation.swift; sourceTree = "<group>"; };
 		1066A9A61E6F348800DD8B9B /* SPAnimationSpring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimationSpring.swift; sourceTree = "<group>"; };
+		10A7EA021E8AFB4B00BDD3AB /* DefaultPulseZones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DefaultPulseZones.json; sourceTree = "<group>"; };
+		10A7EA031E8AFB4B00BDD3AB /* DefaultWorkoutPrograms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DefaultWorkoutPrograms.json; sourceTree = "<group>"; };
+		10A7EA081E8AFBF800BDD3AB /* SPARTAXGYM_WATCH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPARTAXGYM_WATCH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A7EA0B1E8AFBF800BDD3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		10A7EA0D1E8AFBF800BDD3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10A7EA0F1E8AFBF800BDD3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A7EA141E8AFBF800BDD3AB /* SPARTAXGYM_WATCH Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SPARTAXGYM_WATCH Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A7EA1A1E8AFBF800BDD3AB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		10A7EA1D1E8AFBF900BDD3AB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		10A7EA1F1E8AFBF900BDD3AB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		10A7EA211E8AFBF900BDD3AB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		10A7EA231E8AFBF900BDD3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10A7EA251E8AFBF900BDD3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A7EA391E8AFDBA00BDD3AB /* UserDefaults+Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Keys.swift"; sourceTree = "<group>"; };
+		10A7EA3A1E8AFDBA00BDD3AB /* Int+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Util.swift"; sourceTree = "<group>"; };
+		10A7EA3B1E8AFDBA00BDD3AB /* NSNotification+Names.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotification+Names.swift"; sourceTree = "<group>"; };
+		10A7EA3F1E8AFDD100BDD3AB /* AppFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFileManager.swift; sourceTree = "<group>"; };
+		10A7EA401E8AFDD100BDD3AB /* UIUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtil.swift; sourceTree = "<group>"; };
+		10A7EA411E8AFDD100BDD3AB /* MulticastDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		10A7EA451E8AFDF200BDD3AB /* WorkoutSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutSessionManager.swift; sourceTree = "<group>"; };
+		10A7EA461E8AFDF200BDD3AB /* WorkoutSessionManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutSessionManagerDelegate.swift; sourceTree = "<group>"; };
+		10A7EA471E8AFDF200BDD3AB /* WorkoutSessionQueries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutSessionQueries.swift; sourceTree = "<group>"; };
+		10A7EA481E8AFDF200BDD3AB /* HeartRateQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateQuery.swift; sourceTree = "<group>"; };
+		10A7EA491E8AFDF200BDD3AB /* DistanceQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistanceQuery.swift; sourceTree = "<group>"; };
+		10A7EA4A1E8AFDF200BDD3AB /* ActiveCaloriesQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveCaloriesQuery.swift; sourceTree = "<group>"; };
+		10A7EA511E8AFE0000BDD3AB /* Workouts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
+		10A7EA521E8AFE0000BDD3AB /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		10A7EA551E8AFE0D00BDD3AB /* WorkoutPrograms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutPrograms.swift; sourceTree = "<group>"; };
+		10A7EA561E8AFE0D00BDD3AB /* WorkoutProgram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutProgram.swift; sourceTree = "<group>"; };
+		10A7EA571E8AFE0D00BDD3AB /* WorkoutProgramPart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutProgramPart.swift; sourceTree = "<group>"; };
+		10A7EA5B1E8AFE1E00BDD3AB /* PulseZones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseZones.swift; sourceTree = "<group>"; };
+		10A7EA5C1E8AFE1E00BDD3AB /* PulseZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseZone.swift; sourceTree = "<group>"; };
+		10A7EA5D1E8AFE1E00BDD3AB /* PulseZoneType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseZoneType.swift; sourceTree = "<group>"; };
+		10A7EA631E8AFE4900BDD3AB /* WorkoutsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsInterfaceController.swift; sourceTree = "<group>"; };
+		10A7EA641E8AFE4900BDD3AB /* CellWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellWorkout.swift; sourceTree = "<group>"; };
+		10A7EA671E8AFE5600BDD3AB /* ProgramInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramInterfaceController.swift; sourceTree = "<group>"; };
+		10A7EA681E8AFE5600BDD3AB /* ZoneInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoneInterfaceController.swift; sourceTree = "<group>"; };
+		10A7EA691E8AFE5600BDD3AB /* ZonesInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZonesInterfaceController.swift; sourceTree = "<group>"; };
+		10A7EA731E8B08A400BDD3AB /* SPARTAXGYM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SPARTAXGYM.entitlements; sourceTree = "<group>"; };
+		10A7EA741E8B08A600BDD3AB /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		10A7EA771E8B09DE00BDD3AB /* SPARTAXGYM_WATCH Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SPARTAXGYM_WATCH Extension.entitlements"; sourceTree = "<group>"; };
+		10B5FD711E81D3FF006523D5 /* Courses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		10BF7B0A1E82627A00469C67 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		10BF7B0C1E82782D00469C67 /* Trainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
 		10C0363D1E600D6500A4D0EA /* SPARTAXGYM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPARTAXGYM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C036401E600D6500A4D0EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10C036421E600D6500A4D0EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +358,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		10A7EA111E8AFBF800BDD3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1017F3FB1E95933A000B0710 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10C0363A1E600D6300A4D0EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,6 +374,7 @@
 				6D32C13D1E7D22083D3037BA /* Pods_SPARTAXGYM.framework in Frameworks */,
 				10C0365E1E600F6400A4D0EA /* FBSDKCoreKit.framework in Frameworks */,
 				10C0365F1E600F6400A4D0EA /* FBSDKLoginKit.framework in Frameworks */,
+				10A7EA751E8B08A600BDD3AB /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,12 +384,136 @@
 		0CBF4E0CE7E9C7423CF8C4F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1017F3FA1E95933A000B0710 /* HealthKit.framework */,
+				10A7EA741E8B08A600BDD3AB /* HealthKit.framework */,
 				10C0365B1E600F6400A4D0EA /* FBSDKCoreKit.framework */,
 				10C0365C1E600F6400A4D0EA /* FBSDKLoginKit.framework */,
 				10C0365D1E600F6400A4D0EA /* FBSDKShareKit.framework */,
 				E5F4005291999B61AEFE66EE /* Pods_SPARTAXGYM.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		100294C61E83D1EA0058BFEE /* workout */ = {
+			isa = PBXGroup;
+			children = (
+				100294FF1E83D22E0058BFEE /* Controller */,
+				100294FE1E83D2270058BFEE /* View */,
+				100294FD1E83D21D0058BFEE /* Model */,
+			);
+			name = workout;
+			sourceTree = "<group>";
+		};
+		100294FD1E83D21D0058BFEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				100294C71E83D2000058BFEE /* Data.swift */,
+				100294C81E83D2000058BFEE /* Days.swift */,
+				100294C91E83D2000058BFEE /* WorkOuts.swift */,
+				100294CA1E83D2000058BFEE /* Workout Functions.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		100294FE1E83D2270058BFEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				100295021E83D2680058BFEE /* WorkoutTableViews */,
+				100295011E83D25B0058BFEE /* CalendarView */,
+				100295001E83D2530058BFEE /* Effects */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		100294FF1E83D22E0058BFEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				100295071E83D30F0058BFEE /* ChooseTheDates */,
+				100295061E83D2E60058BFEE /* TheWorkouts */,
+				100295051E83D2DC0058BFEE /* Home */,
+				100295041E83D2CE0058BFEE /* DoTheWorkout */,
+				100295031E83D2C00058BFEE /* WorkoutHistory */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		100295001E83D2530058BFEE /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				100294CB1E83D2000058BFEE /* Custom Buttons.swift */,
+				100294CC1E83D2000058BFEE /* CustomSmallButtons.swift */,
+				100294CD1E83D2000058BFEE /* BottomOnlyBorderTextfield.swift */,
+				100294CE1E83D2000058BFEE /* BottomOnlyWithDarkUnderline.swift */,
+				100294CF1E83D2000058BFEE /* NumberOnlyTextField.swift */,
+			);
+			name = Effects;
+			sourceTree = "<group>";
+		};
+		100295011E83D25B0058BFEE /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				1059E0C51E8A778B006C4256 /* CellView.swift */,
+				1059E0C61E8A778B006C4256 /* CellView.xib */,
+			);
+			name = CalendarView;
+			sourceTree = "<group>";
+		};
+		100295021E83D2680058BFEE /* WorkoutTableViews */ = {
+			isa = PBXGroup;
+			children = (
+				100294D21E83D2000058BFEE /* WorkoutTableViewCell.swift */,
+				100294D31E83D2000058BFEE /* BodyChoiceTableViewCell.swift */,
+				100294D41E83D2000058BFEE /* SetupWorkoutTableViewCell.swift */,
+				100294D51E83D2000058BFEE /* StartWorkoutTableViewCell.swift */,
+				100294D61E83D2000058BFEE /* HistoryTableViewCell.swift */,
+				100294D71E83D2000058BFEE /* HistoryDayTableViewCell.swift */,
+			);
+			name = WorkoutTableViews;
+			sourceTree = "<group>";
+		};
+		100295031E83D2C00058BFEE /* WorkoutHistory */ = {
+			isa = PBXGroup;
+			children = (
+				100294D81E83D2000058BFEE /* HistoryOverviewViewController.swift */,
+				100294D91E83D2000058BFEE /* HistoryDayViewController.swift */,
+			);
+			name = WorkoutHistory;
+			sourceTree = "<group>";
+		};
+		100295041E83D2CE0058BFEE /* DoTheWorkout */ = {
+			isa = PBXGroup;
+			children = (
+				100294DA1E83D2000058BFEE /* StartOverviewViewController.swift */,
+				100294DB1E83D2000058BFEE /* StartChosenWorkoutViewController.swift */,
+				100294DC1E83D2000058BFEE /* FinishedWorkoutViewController.swift */,
+			);
+			name = DoTheWorkout;
+			sourceTree = "<group>";
+		};
+		100295051E83D2DC0058BFEE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				100294DD1E83D2000058BFEE /* HomePageViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		100295061E83D2E60058BFEE /* TheWorkouts */ = {
+			isa = PBXGroup;
+			children = (
+				100294E01E83D2000058BFEE /* BodyChoiceTableViewController.swift */,
+				100294E11E83D2000058BFEE /* ChooseWorkoutTableViewController.swift */,
+			);
+			name = TheWorkouts;
+			sourceTree = "<group>";
+		};
+		100295071E83D30F0058BFEE /* ChooseTheDates */ = {
+			isa = PBXGroup;
+			children = (
+				102FF5531E89A0B800380DBA /* CalendarViewController.swift */,
+				100294DF1E83D2000058BFEE /* SetupWorkoutViewController.swift */,
+			);
+			name = ChooseTheDates;
 			sourceTree = "<group>";
 		};
 		1061A62D1E756124005596EF /* trainers */ = {
@@ -181,6 +526,7 @@
 				100A61D31E6FFCAC00F754C8 /* UPCarouselFlowLayout.h */,
 				100A61D41E6FFCAC00F754C8 /* UPCarouselFlowLayout.swift */,
 				100A61CB1E6FFC7B00F754C8 /* CarouselCollectionViewCell.swift */,
+				10BF7B0C1E82782D00469C67 /* Trainer.swift */,
 			);
 			name = trainers;
 			sourceTree = "<group>";
@@ -199,14 +545,168 @@
 				1066A9A41E6F348800DD8B9B /* SPLaunchAnimationSlideExtenshion.swift */,
 				1066A9A51E6F348800DD8B9B /* SPLaunchAnimation.swift */,
 				1066A9A61E6F348800DD8B9B /* SPAnimationSpring.swift */,
+				10B5FD711E81D3FF006523D5 /* Courses.swift */,
 			);
 			name = classes;
+			sourceTree = "<group>";
+		};
+		10A7EA011E8AFB3C00BDD3AB /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA021E8AFB4B00BDD3AB /* DefaultPulseZones.json */,
+				10A7EA031E8AFB4B00BDD3AB /* DefaultWorkoutPrograms.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		10A7EA091E8AFBF800BDD3AB /* SPARTAXGYM_WATCH */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA0A1E8AFBF800BDD3AB /* Interface.storyboard */,
+				10A7EA0D1E8AFBF800BDD3AB /* Assets.xcassets */,
+				10A7EA0F1E8AFBF800BDD3AB /* Info.plist */,
+			);
+			path = SPARTAXGYM_WATCH;
+			sourceTree = "<group>";
+		};
+		10A7EA181E8AFBF800BDD3AB /* SPARTAXGYM_WATCH Extension */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA771E8B09DE00BDD3AB /* SPARTAXGYM_WATCH Extension.entitlements */,
+				10A7EA321E8AFD6E00BDD3AB /* Scenes */,
+				10A7EA311E8AFD6500BDD3AB /* Classes */,
+				10A7EA1D1E8AFBF900BDD3AB /* ExtensionDelegate.swift */,
+				10A7EA1F1E8AFBF900BDD3AB /* NotificationController.swift */,
+				10A7EA211E8AFBF900BDD3AB /* ComplicationController.swift */,
+				10A7EA231E8AFBF900BDD3AB /* Assets.xcassets */,
+				10A7EA251E8AFBF900BDD3AB /* Info.plist */,
+				10A7EA191E8AFBF800BDD3AB /* Supporting Files */,
+			);
+			path = "SPARTAXGYM_WATCH Extension";
+			sourceTree = "<group>";
+		};
+		10A7EA191E8AFBF800BDD3AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA1A1E8AFBF800BDD3AB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10A7EA311E8AFD6500BDD3AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA381E8AFDA600BDD3AB /* Pulse */,
+				10A7EA371E8AFD9F00BDD3AB /* Program */,
+				10A7EA361E8AFD9800BDD3AB /* Workout */,
+				10A7EA351E8AFD9100BDD3AB /* Session */,
+				10A7EA341E8AFD8900BDD3AB /* Utils */,
+				10A7EA331E8AFD7F00BDD3AB /* Extensions */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		10A7EA321E8AFD6E00BDD3AB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA671E8AFE5600BDD3AB /* ProgramInterfaceController.swift */,
+				10A7EA681E8AFE5600BDD3AB /* ZoneInterfaceController.swift */,
+				10A7EA691E8AFE5600BDD3AB /* ZonesInterfaceController.swift */,
+				10A7EA621E8AFE3A00BDD3AB /* Session */,
+				10A7EA611E8AFE3200BDD3AB /* Workouts */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		10A7EA331E8AFD7F00BDD3AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA391E8AFDBA00BDD3AB /* UserDefaults+Keys.swift */,
+				10A7EA3A1E8AFDBA00BDD3AB /* Int+Util.swift */,
+				10A7EA3B1E8AFDBA00BDD3AB /* NSNotification+Names.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		10A7EA341E8AFD8900BDD3AB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA3F1E8AFDD100BDD3AB /* AppFileManager.swift */,
+				10A7EA401E8AFDD100BDD3AB /* UIUtil.swift */,
+				10A7EA411E8AFDD100BDD3AB /* MulticastDelegate.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		10A7EA351E8AFD9100BDD3AB /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA451E8AFDF200BDD3AB /* WorkoutSessionManager.swift */,
+				10A7EA461E8AFDF200BDD3AB /* WorkoutSessionManagerDelegate.swift */,
+				10A7EA471E8AFDF200BDD3AB /* WorkoutSessionQueries.swift */,
+				10A7EA481E8AFDF200BDD3AB /* HeartRateQuery.swift */,
+				10A7EA491E8AFDF200BDD3AB /* DistanceQuery.swift */,
+				10A7EA4A1E8AFDF200BDD3AB /* ActiveCaloriesQuery.swift */,
+			);
+			name = Session;
+			sourceTree = "<group>";
+		};
+		10A7EA361E8AFD9800BDD3AB /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA511E8AFE0000BDD3AB /* Workouts.swift */,
+				10A7EA521E8AFE0000BDD3AB /* Workout.swift */,
+			);
+			name = Workout;
+			sourceTree = "<group>";
+		};
+		10A7EA371E8AFD9F00BDD3AB /* Program */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA551E8AFE0D00BDD3AB /* WorkoutPrograms.swift */,
+				10A7EA561E8AFE0D00BDD3AB /* WorkoutProgram.swift */,
+				10A7EA571E8AFE0D00BDD3AB /* WorkoutProgramPart.swift */,
+			);
+			name = Program;
+			sourceTree = "<group>";
+		};
+		10A7EA381E8AFDA600BDD3AB /* Pulse */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA5B1E8AFE1E00BDD3AB /* PulseZones.swift */,
+				10A7EA5C1E8AFE1E00BDD3AB /* PulseZone.swift */,
+				10A7EA5D1E8AFE1E00BDD3AB /* PulseZoneType.swift */,
+			);
+			name = Pulse;
+			sourceTree = "<group>";
+		};
+		10A7EA611E8AFE3200BDD3AB /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				10A7EA631E8AFE4900BDD3AB /* WorkoutsInterfaceController.swift */,
+				10A7EA641E8AFE4900BDD3AB /* CellWorkout.swift */,
+			);
+			name = Workouts;
+			sourceTree = "<group>";
+		};
+		10A7EA621E8AFE3A00BDD3AB /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				102EF9541E942A0000CE389E /* CountdownTimerInterfaceController.swift */,
+				102EF9551E942A0000CE389E /* SessionInfoInterfaceController.swift */,
+				102EF9561E942A0000CE389E /* SessionActionsInterfaceController.swift */,
+				102EF9571E942A0000CE389E /* SessionZonesInterfaceController.swift */,
+				102EF9581E942A0000CE389E /* SummaryInterfaceController.swift */,
+			);
+			name = Session;
 			sourceTree = "<group>";
 		};
 		10C036341E600D6200A4D0EA = {
 			isa = PBXGroup;
 			children = (
 				10C0363F1E600D6500A4D0EA /* SPARTAXGYM */,
+				10A7EA091E8AFBF800BDD3AB /* SPARTAXGYM_WATCH */,
+				10A7EA181E8AFBF800BDD3AB /* SPARTAXGYM_WATCH Extension */,
 				10C0363E1E600D6500A4D0EA /* Products */,
 				66663014ECD421F28DF76085 /* Pods */,
 				0CBF4E0CE7E9C7423CF8C4F6 /* Frameworks */,
@@ -217,6 +717,8 @@
 			isa = PBXGroup;
 			children = (
 				10C0363D1E600D6500A4D0EA /* SPARTAXGYM.app */,
+				10A7EA081E8AFBF800BDD3AB /* SPARTAXGYM_WATCH.app */,
+				10A7EA141E8AFBF800BDD3AB /* SPARTAXGYM_WATCH Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,6 +726,8 @@
 		10C0363F1E600D6500A4D0EA /* SPARTAXGYM */ = {
 			isa = PBXGroup;
 			children = (
+				10A7EA731E8B08A400BDD3AB /* SPARTAXGYM.entitlements */,
+				100294C61E83D1EA0058BFEE /* workout */,
 				1061A62D1E756124005596EF /* trainers */,
 				10DF10901E6F636D00147E8B /* events */,
 				1066A99C1E6F345B00DD8B9B /* classes */,
@@ -239,6 +743,7 @@
 				10C036591E600F4800A4D0EA /* GoogleService-Info.plist */,
 				10C0364F1E600D6500A4D0EA /* Info.plist */,
 				10C036471E600D6500A4D0EA /* SPARTAXGYM.xcdatamodeld */,
+				10A7EA011E8AFB3C00BDD3AB /* JSON */,
 			);
 			path = SPARTAXGYM;
 			sourceTree = "<group>";
@@ -308,6 +813,7 @@
 		10DF10901E6F636D00147E8B /* events */ = {
 			isa = PBXGroup;
 			children = (
+				10BF7B0A1E82627A00469C67 /* Events.swift */,
 				10DF10941E6F63F600147E8B /* viewcontrollers */,
 				10DF10931E6F63EE00147E8B /* constants */,
 				10DF10921E6F63E700147E8B /* helpers */,
@@ -423,6 +929,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		10A7EA071E8AFBF700BDD3AB /* SPARTAXGYM_WATCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A7EA2D1E8AFBF900BDD3AB /* Build configuration list for PBXNativeTarget "SPARTAXGYM_WATCH" */;
+			buildPhases = (
+				10A7EA061E8AFBF700BDD3AB /* Resources */,
+				1017F3F81E958736000B0710 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1017F3F71E958736000B0710 /* PBXTargetDependency */,
+			);
+			name = SPARTAXGYM_WATCH;
+			productName = SPARTAXGYM_WATCH;
+			productReference = 10A7EA081E8AFBF800BDD3AB /* SPARTAXGYM_WATCH.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		10A7EA131E8AFBF800BDD3AB /* SPARTAXGYM_WATCH Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A7EA291E8AFBF900BDD3AB /* Build configuration list for PBXNativeTarget "SPARTAXGYM_WATCH Extension" */;
+			buildPhases = (
+				10A7EA101E8AFBF800BDD3AB /* Sources */,
+				10A7EA111E8AFBF800BDD3AB /* Frameworks */,
+				10A7EA121E8AFBF800BDD3AB /* Resources */,
+				109109251E9507DB00F1E524 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				109109241E9507DA00F1E524 /* PBXTargetDependency */,
+			);
+			name = "SPARTAXGYM_WATCH Extension";
+			productName = "SPARTAXGYM_WATCH Extension";
+			productReference = 10A7EA141E8AFBF800BDD3AB /* SPARTAXGYM_WATCH Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		10C0363C1E600D6300A4D0EA /* SPARTAXGYM */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10C036521E600D6500A4D0EA /* Build configuration list for PBXNativeTarget "SPARTAXGYM" */;
@@ -433,10 +975,12 @@
 				10C0363B1E600D6300A4D0EA /* Resources */,
 				A13E582E7CF96E68A5ED0206 /* [CP] Embed Pods Frameworks */,
 				687B7590814BE79577C62D62 /* [CP] Copy Pods Resources */,
+				10A7EA301E8AFBF900BDD3AB /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				10A7EA271E8AFBF900BDD3AB /* PBXTargetDependency */,
 			);
 			name = SPARTAXGYM;
 			productName = SPARTAXGYM;
@@ -449,14 +993,41 @@
 		10C036351E600D6200A4D0EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = souheib;
 				TargetAttributes = {
+					10A7EA071E8AFBF700BDD3AB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G96V29LG5G;
+						ProvisioningStyle = Automatic;
+					};
+					10A7EA131E8AFBF800BDD3AB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G96V29LG5G;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 1;
+							};
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
+					};
 					10C0363C1E600D6300A4D0EA = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G96V29LG5G;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -474,16 +1045,39 @@
 			projectRoot = "";
 			targets = (
 				10C0363C1E600D6300A4D0EA /* SPARTAXGYM */,
+				10A7EA071E8AFBF700BDD3AB /* SPARTAXGYM_WATCH */,
+				10A7EA131E8AFBF800BDD3AB /* SPARTAXGYM_WATCH Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		10A7EA061E8AFBF700BDD3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A7EA0E1E8AFBF800BDD3AB /* Assets.xcassets in Resources */,
+				10A7EA0C1E8AFBF800BDD3AB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A7EA121E8AFBF800BDD3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A7EA6F1E8B01A300BDD3AB /* Interface.storyboard in Resources */,
+				10A7EA241E8AFBF900BDD3AB /* Assets.xcassets in Resources */,
+				10A7EA6E1E8B014F00BDD3AB /* DefaultWorkoutPrograms.json in Resources */,
+				10A7EA6D1E8B014B00BDD3AB /* DefaultPulseZones.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10C0363B1E600D6300A4D0EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				10C0366F1E600FF700A4D0EA /* Roboto-Bold.ttf in Resources */,
+				10A7EA051E8AFB4C00BDD3AB /* DefaultWorkoutPrograms.json in Resources */,
 				10C036731E600FF700A4D0EA /* Roboto-LightItalic.ttf in Resources */,
 				10C036751E600FF700A4D0EA /* Roboto-MediumItalic.ttf in Resources */,
 				10C036711E600FF700A4D0EA /* Roboto-Italic.ttf in Resources */,
@@ -493,7 +1087,9 @@
 				10C0366E1E600FF700A4D0EA /* Roboto-BlackItalic.ttf in Resources */,
 				10C036771E600FF700A4D0EA /* Roboto-Thin.ttf in Resources */,
 				10C036761E600FF700A4D0EA /* Roboto-Regular.ttf in Resources */,
+				1017F3F91E9587F5000B0710 /* SPARTAXGYM_WATCH.app in Resources */,
 				10C0365A1E600F4800A4D0EA /* GoogleService-Info.plist in Resources */,
+				1059E0C81E8A778C006C4256 /* CellView.xib in Resources */,
 				10DF10AD1E6F64FF00147E8B /* DemoCollectionViewCell.xib in Resources */,
 				10C036741E600FF700A4D0EA /* Roboto-Medium.ttf in Resources */,
 				10C036781E600FF700A4D0EA /* Roboto-ThinItalic.ttf in Resources */,
@@ -501,6 +1097,7 @@
 				10C0364B1E600D6500A4D0EA /* Assets.xcassets in Resources */,
 				10C036461E600D6500A4D0EA /* Main.storyboard in Resources */,
 				100A61CA1E6FFC0C00F754C8 /* UPCarouselFlowLayout in Resources */,
+				10A7EA041E8AFB4C00BDD3AB /* DefaultPulseZones.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +1110,7 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/myfile",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -549,55 +1147,124 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		10A7EA101E8AFBF800BDD3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A7EA201E8AFBF900BDD3AB /* NotificationController.swift in Sources */,
+				10A7EA6B1E8AFE5600BDD3AB /* ZoneInterfaceController.swift in Sources */,
+				10A7EA221E8AFBF900BDD3AB /* ComplicationController.swift in Sources */,
+				10A7EA4F1E8AFDF200BDD3AB /* DistanceQuery.swift in Sources */,
+				10A7EA581E8AFE0D00BDD3AB /* WorkoutPrograms.swift in Sources */,
+				10A7EA3C1E8AFDBA00BDD3AB /* UserDefaults+Keys.swift in Sources */,
+				10A7EA661E8AFE4900BDD3AB /* CellWorkout.swift in Sources */,
+				10A7EA421E8AFDD100BDD3AB /* AppFileManager.swift in Sources */,
+				102EF95C1E942A0000CE389E /* SessionZonesInterfaceController.swift in Sources */,
+				10A7EA541E8AFE0000BDD3AB /* Workout.swift in Sources */,
+				10A7EA5E1E8AFE1E00BDD3AB /* PulseZones.swift in Sources */,
+				10A7EA4D1E8AFDF200BDD3AB /* WorkoutSessionQueries.swift in Sources */,
+				10A7EA3D1E8AFDBA00BDD3AB /* Int+Util.swift in Sources */,
+				10A7EA1E1E8AFBF900BDD3AB /* ExtensionDelegate.swift in Sources */,
+				10A7EA6C1E8AFE5600BDD3AB /* ZonesInterfaceController.swift in Sources */,
+				102EF9591E942A0000CE389E /* CountdownTimerInterfaceController.swift in Sources */,
+				10A7EA591E8AFE0D00BDD3AB /* WorkoutProgram.swift in Sources */,
+				102EF95A1E942A0000CE389E /* SessionInfoInterfaceController.swift in Sources */,
+				10A7EA651E8AFE4900BDD3AB /* WorkoutsInterfaceController.swift in Sources */,
+				10A7EA501E8AFDF200BDD3AB /* ActiveCaloriesQuery.swift in Sources */,
+				10A7EA4B1E8AFDF200BDD3AB /* WorkoutSessionManager.swift in Sources */,
+				10A7EA5A1E8AFE0D00BDD3AB /* WorkoutProgramPart.swift in Sources */,
+				102EF95D1E942A0000CE389E /* SummaryInterfaceController.swift in Sources */,
+				10A7EA4C1E8AFDF200BDD3AB /* WorkoutSessionManagerDelegate.swift in Sources */,
+				10A7EA531E8AFE0000BDD3AB /* Workouts.swift in Sources */,
+				10A7EA431E8AFDD100BDD3AB /* UIUtil.swift in Sources */,
+				10A7EA441E8AFDD100BDD3AB /* MulticastDelegate.swift in Sources */,
+				10A7EA5F1E8AFE1E00BDD3AB /* PulseZone.swift in Sources */,
+				10A7EA4E1E8AFDF200BDD3AB /* HeartRateQuery.swift in Sources */,
+				10A7EA601E8AFE1E00BDD3AB /* PulseZoneType.swift in Sources */,
+				10A7EA6A1E8AFE5600BDD3AB /* ProgramInterfaceController.swift in Sources */,
+				102EF95B1E942A0000CE389E /* SessionActionsInterfaceController.swift in Sources */,
+				10A7EA3E1E8AFDBA00BDD3AB /* NSNotification+Names.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10C036391E600D6300A4D0EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				100A61CE1E6FFC7B00F754C8 /* CarouselCollectionViewCell.swift in Sources */,
 				10DF109D1E6F649A00147E8B /* AnimationBarButton.swift in Sources */,
+				10B5FD721E81D3FF006523D5 /* Courses.swift in Sources */,
+				100294F21E83D2010058BFEE /* HistoryDayTableViewCell.swift in Sources */,
+				100294FC1E83D2010058BFEE /* ChooseWorkoutTableViewController.swift in Sources */,
 				1066A9AF1E6F348800DD8B9B /* SPLaunchAnimation.swift in Sources */,
+				1059E0C71E8A778B006C4256 /* CellView.swift in Sources */,
+				10BF7B0B1E82627A00469C67 /* Events.swift in Sources */,
 				100A61D21E6FFC8C00F754C8 /* TrainersViewController.swift in Sources */,
 				10C036881E60112C00A4D0EA /* MyNavigationController.swift in Sources */,
+				100294E61E83D2000058BFEE /* Custom Buttons.swift in Sources */,
 				1066A9AD1E6F348800DD8B9B /* SPAnimation.swift in Sources */,
 				10DF109F1E6F64A100147E8B /* Rotatable.swift in Sources */,
 				1061A62C1E755B22005596EF /* EventsTableViewController.swift in Sources */,
 				10DF10A71E6F64EC00147E8B /* DemoTableViewController.swift in Sources */,
+				100294E81E83D2000058BFEE /* BottomOnlyBorderTextfield.swift in Sources */,
+				100294E71E83D2000058BFEE /* CustomSmallButtons.swift in Sources */,
 				1066A9A81E6F348800DD8B9B /* ParallaxTableViewController.swift in Sources */,
+				100294F11E83D2000058BFEE /* HistoryTableViewCell.swift in Sources */,
 				1061A62A1E755B0E005596EF /* EventsViewController.swift in Sources */,
 				10C036431E600D6500A4D0EA /* ViewController.swift in Sources */,
 				10DF10A51E6F64CD00147E8B /* Images.swift in Sources */,
 				1066A9AB1E6F348800DD8B9B /* SPParallaxTableViewCell.swift in Sources */,
+				100294E31E83D2000058BFEE /* Days.swift in Sources */,
+				100294EE1E83D2000058BFEE /* BodyChoiceTableViewCell.swift in Sources */,
+				100294E21E83D2000058BFEE /* Data.swift in Sources */,
 				10C036861E60111A00A4D0EA /* MKTextField.swift in Sources */,
 				1061A6281E7559CA005596EF /* ClassesViewController.swift in Sources */,
+				100294F31E83D2010058BFEE /* HistoryOverviewViewController.swift in Sources */,
 				10C036951E60424400A4D0EA /* SecondViewController.swift in Sources */,
 				1066A9B01E6F348800DD8B9B /* SPAnimationSpring.swift in Sources */,
+				100294E51E83D2000058BFEE /* Workout Functions.swift in Sources */,
 				100A61D01E6FFC7B00F754C8 /* GradientView.swift in Sources */,
+				100294E41E83D2000058BFEE /* WorkOuts.swift in Sources */,
 				1066A9AC1E6F348800DD8B9B /* SPConstraintsAssistent.swift in Sources */,
+				100294F01E83D2000058BFEE /* StartWorkoutTableViewCell.swift in Sources */,
+				100294F41E83D2010058BFEE /* HistoryDayViewController.swift in Sources */,
 				10C036931E601D5700A4D0EA /* CompleteProfileViewController.swift in Sources */,
 				10C036801E6010D500A4D0EA /* SingUpViewController.swift in Sources */,
+				100294EF1E83D2000058BFEE /* SetupWorkoutTableViewCell.swift in Sources */,
 				10DF10A31E6F64BD00147E8B /* StoryboardHelper.swift in Sources */,
+				102FF5541E89A0B800380DBA /* CalendarViewController.swift in Sources */,
 				10C036491E600D6500A4D0EA /* SPARTAXGYM.xcdatamodeld in Sources */,
 				10C036411E600D6500A4D0EA /* AppDelegate.swift in Sources */,
+				100294F61E83D2010058BFEE /* StartChosenWorkoutViewController.swift in Sources */,
 				100A61D51E6FFCAC00F754C8 /* UPCarouselFlowLayout.swift in Sources */,
 				10C0367E1E6010CE00A4D0EA /* ResetPasswordViewController.swift in Sources */,
 				10C036911E60117900A4D0EA /* SWRevealViewController.m in Sources */,
 				10C0367C1E6010C900A4D0EA /* LoginViewController.swift in Sources */,
 				10DF10AC1E6F64FF00147E8B /* DemoCollectionViewCell.swift in Sources */,
 				10C036851E60111A00A4D0EA /* MKLayer.swift in Sources */,
+				100294FB1E83D2010058BFEE /* BodyChoiceTableViewController.swift in Sources */,
+				100294FA1E83D2010058BFEE /* SetupWorkoutViewController.swift in Sources */,
+				10BF7B0D1E82782D00469C67 /* Trainer.swift in Sources */,
+				100294F51E83D2010058BFEE /* StartOverviewViewController.swift in Sources */,
 				10DF10A91E6F64F600147E8B /* DemoViewController.swift in Sources */,
 				100A61CF1E6FFC7B00F754C8 /* Character.swift in Sources */,
+				100294F71E83D2010058BFEE /* FinishedWorkoutViewController.swift in Sources */,
 				10DF10A11E6F64B700147E8B /* CollectionViewHelper.swift in Sources */,
 				1066A9A71E6F348800DD8B9B /* DataAPI.swift in Sources */,
+				100294E91E83D2000058BFEE /* BottomOnlyWithDarkUnderline.swift in Sources */,
 				1066A9AA1E6F348800DD8B9B /* SPParalaxTableViewController.swift in Sources */,
+				100294ED1E83D2000058BFEE /* WorkoutTableViewCell.swift in Sources */,
 				1066A9A91E6F348800DD8B9B /* ParallaxTableViewCell.swift in Sources */,
 				10C036841E60111A00A4D0EA /* MKColor.swift in Sources */,
 				10C0368D1E60116C00A4D0EA /* MenuController.swift in Sources */,
+				100294F81E83D2010058BFEE /* HomePageViewController.swift in Sources */,
+				100294EA1E83D2000058BFEE /* NumberOnlyTextField.swift in Sources */,
 				1066A9AE1E6F348800DD8B9B /* SPLaunchAnimationSlideExtenshion.swift in Sources */,
 				10C0368A1E60114400A4D0EA /* HomeViewController.swift in Sources */,
 			);
@@ -605,7 +1272,33 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1017F3F71E958736000B0710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10A7EA131E8AFBF800BDD3AB /* SPARTAXGYM_WATCH Extension */;
+			targetProxy = 1017F3F61E958736000B0710 /* PBXContainerItemProxy */;
+		};
+		109109241E9507DA00F1E524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10A7EA071E8AFBF700BDD3AB /* SPARTAXGYM_WATCH */;
+			targetProxy = 109109231E9507DA00F1E524 /* PBXContainerItemProxy */;
+		};
+		10A7EA271E8AFBF900BDD3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10A7EA071E8AFBF700BDD3AB /* SPARTAXGYM_WATCH */;
+			targetProxy = 10A7EA261E8AFBF900BDD3AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		10A7EA0A1E8AFBF800BDD3AB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A7EA0B1E8AFBF800BDD3AB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		10C036441E600D6500A4D0EA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -625,6 +1318,90 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		10A7EA2A1E8AFBF900BDD3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_ENTITLEMENTS = "SPARTAXGYM_WATCH Extension/SPARTAXGYM_WATCH Extension.entitlements";
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "SPARTAXGYM_WATCH Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.SPARTAXGYM.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		10A7EA2B1E8AFBF900BDD3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_ENTITLEMENTS = "SPARTAXGYM_WATCH Extension/SPARTAXGYM_WATCH Extension.entitlements";
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "SPARTAXGYM_WATCH Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.SPARTAXGYM.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		10A7EA2E1E8AFBF900BDD3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				IBSC_MODULE = SPARTAXGYM_WATCH_Extension;
+				INFOPLIST_FILE = SPARTAXGYM_WATCH/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.SPARTAXGYM.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		10A7EA2F1E8AFBF900BDD3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				IBSC_MODULE = SPARTAXGYM_WATCH_Extension;
+				INFOPLIST_FILE = SPARTAXGYM_WATCH/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.SPARTAXGYM.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
 		10C036501E600D6500A4D0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -722,6 +1499,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SPARTAXGYM/SPARTAXGYM.entitlements;
+				DEVELOPMENT_TEAM = G96V29LG5G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -743,6 +1522,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SPARTAXGYM/SPARTAXGYM.entitlements;
+				DEVELOPMENT_TEAM = G96V29LG5G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -760,6 +1541,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		10A7EA291E8AFBF900BDD3AB /* Build configuration list for PBXNativeTarget "SPARTAXGYM_WATCH Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A7EA2A1E8AFBF900BDD3AB /* Debug */,
+				10A7EA2B1E8AFBF900BDD3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A7EA2D1E8AFBF900BDD3AB /* Build configuration list for PBXNativeTarget "SPARTAXGYM_WATCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A7EA2E1E8AFBF900BDD3AB /* Debug */,
+				10A7EA2F1E8AFBF900BDD3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		10C036381E600D6200A4D0EA /* Build configuration list for PBXProject "SPARTAXGYM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -52,12 +52,15 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             alertView.showError("", subTitle: "Please fill the fields")
         }
         else {
-            FIRAuth.auth()?.signIn(withEmail: email_Tf.text!, password: password_Tf.text!) { (user, error) in
-                if error == nil {
-                    print(user!)
-                    self.performSegue(withIdentifier: "login_segue", sender: self)
-                }
-                else{
+            
+            let ref : FIRDatabaseReference!
+            ref = FIRDatabase.database().reference()
+            
+            FIRAuth.auth()?.signIn(withEmail: email_Tf.text!, password: password_Tf.text!, completion: {
+                user, error in
+                
+                if error != nil {
+          
                     print(error!)
                     
                     let appearance = SCLAlertView.SCLAppearance(
@@ -70,8 +73,62 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                     
                     let alertView = SCLAlertView(appearance : appearance)
                     alertView.showError("", subTitle: "Please check you email and password")
+                    
+                    
+                } else {
+                    let userID = FIRAuth.auth()?.currentUser?.uid
+                    ref.child("users").child(userID!).child("userInfo").observeSingleEvent(of: .value, with: { (snapshot) in
+                        // Get user value
+                        let value = snapshot.value as? NSDictionary
+                        let workoutPlanned = value!["workoutPlanned"] as! String
+                        if workoutPlanned == "no" {
+                            self.performSegue(withIdentifier: "login_segue", sender: self)
+                        } else {
+                            self.performSegue(withIdentifier: "login_segue", sender: self)
+                        }
+                        // ...
+                    }) { (error) in
+                        print(error.localizedDescription)
+                    }
+                    
+                    
+                    
                 }
-            }
+                
+                
+            })
+            
+            
+            
+            
+            
+//            
+//            
+//            
+//            
+//            
+//            
+//            FIRAuth.auth()?.signIn(withEmail: email_Tf.text!, password: password_Tf.text!) { (user, error) in
+//                if error == nil {
+//                    print(user!)
+//                    
+//                    self.performSegue(withIdentifier: "login_segue", sender: self)
+//                }
+//                else{
+//                    print(error!)
+//                    
+//                    let appearance = SCLAlertView.SCLAppearance(
+//                        kTitleFont: UIFont(name: "Roboto-Regular", size: 17)!,
+//                        kTextFont: UIFont(name: "Roboto-Regular", size: 17)!,
+//                        kButtonFont: UIFont(name: "Roboto-Regular", size: 17)!,
+//                        showCloseButton: true
+//                    )
+//                    
+//                    
+//                    let alertView = SCLAlertView(appearance : appearance)
+//                    alertView.showError("", subTitle: "Please check you email and password")
+//                }
+//            }
         }
 
     }

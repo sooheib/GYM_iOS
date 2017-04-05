@@ -1,9 +1,9 @@
 //
-//  GradientView.swift
-//  UPCarouselFlowLayoutDemo
+//  TrainersViewController.swift
+//  SPARTAXGYM
 //
-//  Created by Paul Ulric on 28/06/2016.
-//  Copyright © 2016 Paul Ulric. All rights reserved.
+//  Created by souheib on 3/8/17.
+//  Copyright © 2017 souheib. All rights reserved.
 //
 
 import UIKit

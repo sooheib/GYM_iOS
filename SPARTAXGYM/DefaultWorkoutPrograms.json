@@ -1,0 +1,35 @@
+{
+    "programs": [
+                 {
+                 "title": "Test 1",
+                 "parts": [
+                           {"zoneType": "z1", "duration": 60},
+                           {"zoneType": "z2", "duration": 120},
+                           {"zoneType": "z3", "duration": 60},
+                           {"zoneType": "z4", "duration": 120},
+                           {"zoneType": "z0", "duration": 60}
+                           ]
+                 },
+            
+                 {
+                 "title": "Beginner",
+                 "parts": [
+                           {"zoneType": "z1", "duration": 2400}
+                           ]
+                 },
+                 {
+                 "title": "Advanced",
+                 "parts": [
+                           {"zoneType": "z2", "duration": 40},
+                           {"zoneType": "z3", "duration": 40}
+                           ]
+                 },
+                 {
+                 "title": "Professional",
+                 "parts": [
+                           {"zoneType": "z3", "duration": 1200},
+                           {"zoneType": "z4", "duration": 1200}
+                           ]
+                 }
+                 ]
+}
