@@ -341,10 +341,11 @@
                                 <label alignment="right" text="Beginner" textAlignment="right" minimumScaleFactor="0.80000000000000004" id="cK5-Jt-oZj">
                                     <fontDescription key="font" type="boldSystem" pointSize="16"/>
                                 </label>
-                                <button width="1" alignment="left" title="START" id="Qlg-kc-H5X">
+                                <button width="1" height="100" alignment="left" title="START" id="Qlg-kc-H5X">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <fontDescription key="font" type="boldSystem" pointSize="23"/>
+                                    <variation key="device=watch38mm" height="100"/>
                                     <connections>
                                         <action selector="startSession" destination="VaH-5B-7Kc" id="qbx-1R-IJ4"/>
                                     </connections>
